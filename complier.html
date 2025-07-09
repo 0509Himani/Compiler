@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Code Compiler</title>
+  <link rel="stylesheet" href="compiler.css">
+</head>
+<body>
+
+  <h2>Simple Code Compiler</h2>
+
+  <label for="language">Language:</label>
+  <select id="language">
+    <option value="0">Python</option>
+    <option value="4">JavaScript</option>
+    <option value="7">C</option>
+    <option value="77">C++</option>
+    <option value="8">Java</option>
+  </select>
+
+  <label for="code">Your Code:</label>
+  <textarea id="code" placeholder="Write your code here..."></textarea>
+
+  <button onclick="compileCode()">Compile</button>
+
+  <h3>Output:</h3>
+  <div id="output">Output will be shown here...</div>
+
+  <script src="compiler.js"></script>
+
+</body>
+</html>
